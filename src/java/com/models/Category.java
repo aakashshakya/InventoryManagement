@@ -27,6 +27,7 @@ public class Category implements Serializable{
     public Category() {
     }
 
+    //Constructor added for category.
     public Category(int categoryId, String categoryName, String categoryDescription, int status) {
         this.categoryId = categoryId;
         this.categoryName = categoryName;

@@ -28,6 +28,7 @@ public class Damaged implements Serializable{
     public Damaged() {
     }
 
+    //Damaged constructor
     public Damaged(int damagedId, int productId, String damagedDescription, int damagedQuantity) {
         this.damagedId = damagedId;
         this.productId = productId;
